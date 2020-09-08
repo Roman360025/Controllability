@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ost83_choice</class>
+ <widget class="QDialog" name="ost83_choice">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>347</width>
+    <height>67</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Выбор способа расчёта</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>Готовая аппаратура с известным показателем надёжности</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Время восстановления составной части</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Среднее время восстановления изделия в целом</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Замена из состава ЗИП</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
